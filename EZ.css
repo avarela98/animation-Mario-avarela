@@ -19,6 +19,8 @@ div {  border: thin solid #dadada; }
 .img-left { float: left; padding: 5px; }
 .img-right { float: right; padding: 5px; }
 
+.logo-social { width: 78px; }
+
 #left { width: 80%; float: left; padding: 10px; }
 #right { width: 20%; float: right; padding: 10px; }
 
