@@ -1,21 +1,22 @@
 * { box-sizing: border-box;}
 
-div {  border: thin solid #dadada; }
+/* div {  border: thin solid #dadada; } */
 
 #header { }
 
+#main { border: thin solid blue; }
 #main-menu { width: 50%; float: left;}
 #main-menu-form { width: 50%; float: right;}
 
 
-#content-wrapper { }
+#content-wrapper {  }
 #content {  width: 50%; float: left; padding: 5px;}
 #right-menu {  width: 50%; float: right; }
 
 #footer { }
-.footer-column {  width: 25%; float: left; }
+.footer-column {  width: 25%; float: left; border: thin solid orange }
 
-.card {  border: thin solid #dadada; }
+.card {  border: thin solid red; }
 .img-left { float: left; padding: 5px; }
 .img-right { float: right; padding: 5px; }
 
@@ -47,7 +48,7 @@ img { max-width: 100%;}
 /* Navbar container */
 .navbar {
  overflow: hidden;
- background-color: #333;
+ background-color: green;
  font-family: Arial;
 }
 
@@ -55,7 +56,7 @@ img { max-width: 100%;}
 .navbar a {
  float: left;
  font-size: 16px;
- color: white;
+ color: black;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
@@ -72,7 +73,7 @@ img { max-width: 100%;}
  font-size: 16px;
  border: none;
  outline: none;
- color: white;
+ color: black;
  padding: 14px 16px;
  background-color: inherit;
 }
